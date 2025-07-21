@@ -2,4 +2,36 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: var(--text-color);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+:root{
+  --text-color: #e9ecfb;
+  --bg-color: #02050e;
+  --primary-color: #8a98eb;
+  --secondary-color: #83166c;
+  --accent-color: #e0487a;
+  --usually-white: #ffffff;
+  --usually-black: #000000;
+}
+
+main{
+  height: 100vh;
+  background-color: var(--bg-color);
+}
+
+.film-list-cont{
+  width: 50%;
+  
+  li{
+    background-color: var(--secondary-color);
+  }
+}
+
+.form-select{
+  width: 80%;
+  cursor: pointer;
+  color: var(--text-color);
+  background-color: var(--accent-color);
 }
